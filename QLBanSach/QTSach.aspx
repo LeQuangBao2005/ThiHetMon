@@ -19,8 +19,7 @@
             <Columns>              
                 <asp:BoundField DataField="TenSach" HeaderText="Tên sách" ReadOnly="true" />   
                 <asp:ImageField DataImageUrlField="Hinh" DataImageUrlFormatString="/Bia_sach/{0}" ControlStyle-Width="150px" HeaderText="Hình ảnh" ReadOnly="true" />
-                <asp:BoundField DataField="Dongia" DataFormatString="{0: #,##0} đồng" HeaderText="Đơn giá"  />
-               
+                <asp:BoundField DataField="Dongia" DataFormatString="{0: #,##0} đồng" HeaderText="Đơn giá"  />               
                   <asp:BoundField DataField="KhuyenMai" HeaderText="Khuyến mãi" />  
                 <asp:CommandField ShowEditButton="true" ButtonType="Button" EditText="Sửa" DeleteText="Xoá" />
                 <asp:TemplateField>
